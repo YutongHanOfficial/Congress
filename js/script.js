@@ -66,8 +66,12 @@ function loadPageData() {
                 if (bill) {
                     document.getElementById("bill-title").innerText = bill.title;
                     document.getElementById("bill-summary").innerText = bill.summary;
+
+                    // Check if the Senate vote is a text-based value
+                    let senateVoteDisplay = `<li>Senate: ${bill.votes.Senate}</li>`;
+
                     document.getElementById("bill-votes").innerHTML = `
-                        <li>Senate: ${bill.votes.Senate.yes} Yes, ${bill.votes.Senate.no} No</li>
+                        ${senateVoteDisplay}
                         <li>House: ${bill.votes.House.yes} Yes, ${bill.votes.House.no} No</li>
                     `;
                 }
