@@ -5,7 +5,8 @@
         "state": "Alabama",
         "party": "Republican",
         "votes": {
-            "bill-congress119-s5": "Yes"
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "No"
         }
     },
     {
@@ -14,7 +15,8 @@
         "state": "Alabama",
         "party": "Republican",
         "votes": {
-            "bill-congress119-s5": "Yes"
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes"
         }
     },
     {
@@ -23,7 +25,8 @@
         "state": "Alaska",
         "party": "Republican",
         "votes": {
-            "bill-congress119-s5": "Yes"
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes"
         }
     },
     {
@@ -32,7 +35,8 @@
         "state": "Alaska",
         "party": "Republican",
         "votes": {
-            "bill-congress119-s5": "Yes"
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes"
         }
     },
     {
@@ -41,7 +45,8 @@
         "state": "Michigan",
         "party": "Democratic",
         "votes": {
-            "bill-congress119-s5": "Yes"
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes"
         }
     },
     {
@@ -50,7 +55,8 @@
         "state": "Michigan",
         "party": "Democratic",
         "votes": {
-            "bill-congress119-s5": "Yes"
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes"
         }
     }
 ]
