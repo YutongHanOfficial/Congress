@@ -1,11 +1,20 @@
 [
     {
-        "id": "bill-congress119-s5",
+        "id": "bill-119-s5",
         "title": "S.5 - Laken Riley Act",
         "summary": "This bill requires the Department of Homeland Security (DHS) to detain certain non-U.S. nationals (aliens under federal law) who have been arrested for burglary, theft, larceny, or shoplifting. The bill also authorizes states to sue the federal government for decisions or alleged failures related to immigration enforcement.",
         "votes": {
             "Senate": "64 Yes, 35 No",
             "House": {"yes": 263, "no": 156}
+        }
+    },
+    {
+        "id": "bill-118-hr7888",
+        "title": "H.R.7888 - Reforming Intelligence and Securing America Act",
+        "summary": "This bill reauthorizes Title VII of the Foreign Intelligence Surveillance Act (FISA) for five years and makes changes to FISA, including certain restrictions on surveillance under Section 702. (Sec. 702 concerns electronic surveillance of non-U.S. persons believed to be outside the United States to obtain foreign intelligence information. Information about U.S. persons may incidentally be acquired by this type of surveillance and subsequently searched or 'queried' under certain circumstances.)",
+        "votes": {
+            "Senate": "60 Yes, 34 No",
+            "House": {"yes": 273, "no": 147}
         }
     }
 ]
