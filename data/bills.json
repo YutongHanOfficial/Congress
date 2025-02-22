@@ -4,7 +4,7 @@
         "title": "S.5 - Laken Riley Act",
         "summary": "This bill requires the Department of Homeland Security (DHS) to detain certain non-U.S. nationals (aliens under federal law) who have been arrested for burglary, theft, larceny, or shoplifting. The bill also authorizes states to sue the federal government for decisions or alleged failures related to immigration enforcement.",
         "votes": {
-            "Senate": {"yes": 64, "no": 35},
+            "Senate": "64 Yes, 35 No",
             "House": {"yes": 263, "no": 156}
         }
     }
