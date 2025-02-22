@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Bills</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>All Bills</h1>
+        <input type="text" id="search-bills" placeholder="Search for bills...">
+    </header>
+
+    <main>
+        <div id="bills-list"></div>
+    </main>
+
+    <script src="js/script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            fetch("data/bills.json")
+                .then(response => response.json())
+                .then(bills => {
+                    const billsList = document.getElementById("bills-list");
+                    billsList.innerHTML = bills.map(bill => `
+                        <div class="card">
+                            <h3><a href="bill.html?id=${bill.id}">${bill.title}</a></h3>
+                            <p>${bill.summary}</p>
+                        </div>
+                    `).join("");
+                });
+
+            document.getElementById("search-bills").addEventListener("input", (e) => {
+                const searchText = e.target.value.toLowerCase();
+                const billCards = document.querySelectorAll("#bills-list .card");
+                billCards.forEach(card => {
+                    const title = card.innerText.toLowerCase();
+                    card.style.display = title.includes(searchText) ? "block" : "none";
+                });
+            });
+        });
+    </script>
+</body>
+</html>
