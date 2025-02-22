@@ -63,6 +63,92 @@
         }
     },
     {
+        "id": "member-ar-1",
+        "name": "John Boozman",
+        "state": "Arizona",
+        "party": "Republican",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ar-2",
+        "name": "Tom Cotton",
+        "state": "Arizona",
+        "party": "Republican",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ca-1",
+        "name": "Alex Padilla",
+        "state": "California",
+        "party": "Democratic",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ca-2",
+        "name": "Adam Schiff",
+        "state": "California",
+        "party": "Democratic",
+        "votes": {
+            "bill-119-s5": "No"
+        }
+    },
+    {
+        "id": "member-co-1",
+        "name": "Michael Bennet",
+        "state": "Colorado",
+        "party": "Democratic",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-co-2",
+        "name": "John Hickenlooper",
+        "state": "Colorado",
+        "party": "Democratic",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ct-1",
+        "name": "Richard Blumenthal",
+        "state": "Connecticut",
+        "party": "Democratic",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ct-2",
+        "name": "Chris Murphy",
+        "state": "Connecticut",
+        "party": "Democratic",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
         "id": "member-mi-1",
         "name": "Gary Peters",
         "state": "Michigan",
