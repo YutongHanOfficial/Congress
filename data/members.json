@@ -6,7 +6,8 @@
         "party": "Republican",
         "votes": {
             "bill-119-s5": "Yes",
-            "bill-118-hr7888": "No"
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
         }
     },
     {
@@ -26,7 +27,8 @@
         "party": "Republican",
         "votes": {
             "bill-119-s5": "Yes",
-            "bill-118-hr7888": "Yes"
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
         }
     },
     {
@@ -36,7 +38,8 @@
         "party": "Republican",
         "votes": {
             "bill-119-s5": "Yes",
-            "bill-118-hr7888": "Yes"
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
         }
     },
     {
@@ -46,7 +49,8 @@
         "party": "Democratic",
         "votes": {
             "bill-119-s5": "Yes",
-            "bill-118-hr7888": "Yes"
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
         }
     },
     {
