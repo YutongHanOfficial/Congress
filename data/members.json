@@ -1,23 +1,5 @@
 [
     {
-        "id": "member-mi-1",
-        "name": "Gary Peters",
-        "state": "Michigan",
-        "party": "Democratic",
-        "votes": {
-            "bill-congress119-s5": "Yes"
-        }
-    },
-    {
-        "id": "member-mi-2",
-        "name": "Elissa Slotkin",
-        "state": "Michigan",
-        "party": "Democratic",
-        "votes": {
-            "bill-congress119-s5": "Yes"
-        }
-    },
-    {
         "id": "member-al-1",
         "name": "Tommy Tuberville",
         "state": "Alabama",
@@ -31,6 +13,42 @@
         "name": "Katie Britt",
         "state": "Alabama",
         "party": "Republican",
+        "votes": {
+            "bill-congress119-s5": "Yes"
+        }
+    },
+    {
+        "id": "member-ak-1",
+        "name": "Lisa Murkowski",
+        "state": "Alaska",
+        "party": "Republican",
+        "votes": {
+            "bill-congress119-s5": "Yes"
+        }
+    },
+    {
+        "id": "member-ak-2",
+        "name": "Dan Sullivan",
+        "state": "Alaska",
+        "party": "Republican",
+        "votes": {
+            "bill-congress119-s5": "Yes"
+        }
+    },
+    {
+        "id": "member-mi-1",
+        "name": "Gary Peters",
+        "state": "Michigan",
+        "party": "Democratic",
+        "votes": {
+            "bill-congress119-s5": "Yes"
+        }
+    },
+    {
+        "id": "member-mi-2",
+        "name": "Elissa Slotkin",
+        "state": "Michigan",
+        "party": "Democratic",
         "votes": {
             "bill-congress119-s5": "Yes"
         }
