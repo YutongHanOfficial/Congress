@@ -16,5 +16,23 @@
         "votes": {
             "bill-congress119-s5": "Yes"
         }
+    },
+    {
+        "id": "member-al-1",
+        "name": "Tommy Tuberville",
+        "state": "Alabama",
+        "party": "Republican",
+        "votes": {
+            "bill-congress119-s5": "Yes"
+        }
+    },
+    {
+        "id": "member-al-2",
+        "name": "Katie Britt",
+        "state": "Alabama",
+        "party": "Republican",
+        "votes": {
+            "bill-congress119-s5": "Yes"
+        }
     }
 ]
