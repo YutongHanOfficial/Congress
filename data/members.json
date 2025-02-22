@@ -65,7 +65,7 @@
     {
         "id": "member-ar-1",
         "name": "John Boozman",
-        "state": "Arizona",
+        "state": "Arkansas",
         "party": "Republican",
         "votes": {
             "bill-119-s5": "Yes",
@@ -76,7 +76,7 @@
     {
         "id": "member-ar-2",
         "name": "Tom Cotton",
-        "state": "Arizona",
+        "state": "Arkansas",
         "party": "Republican",
         "votes": {
             "bill-119-s5": "Yes",
@@ -146,6 +146,26 @@
             "bill-119-s5": "No",
             "bill-118-hr7888": "No",
             "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-de-1",
+        "name": "Chris Coons",
+        "state": "Delaware",
+        "party": "Democratic",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-de-2",
+        "name": "Lisa Blunt Rochester",
+        "state": "Delaware",
+        "party": "Democratic",
+        "votes": {
+            "bill-119-s5": "No"
         }
     },
     {
