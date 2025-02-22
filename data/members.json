@@ -43,6 +43,26 @@
         }
     },
     {
+        "id": "member-az-1",
+        "name": "Mark Kelly",
+        "state": "Arizona",
+        "party": "Democratic",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-az-2",
+        "name": "Ruben Gallego",
+        "state": "Arizona",
+        "party": "Democratic",
+        "votes": {
+            "bill-119-s5": "Yes"
+        }
+    },
+    {
         "id": "member-mi-1",
         "name": "Gary Peters",
         "state": "Michigan",
