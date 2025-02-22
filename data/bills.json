@@ -7,5 +7,14 @@
             "Senate": "Unanimous Consent",
             "House": {"yes": 410, "no": 6}
         }
+    },
+    {
+        "id": "bill-congress118-s3475",
+        "title": "S.3475 - Strengthening the Commercial Driver’s License Information System Act",
+        "summary": "DOT can authorize an operator to collect fees for CDLIS.",
+        "votes": {
+            "Senate": "Agreed to by Voice Vote",
+            "House": "Unanimous Consent"
+        }
     }
 ]
