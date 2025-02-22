@@ -169,6 +169,25 @@
         }
     },
     {
+        "id": "member-fl-1",
+        "name": "Rick Scott",
+        "state": "Florida",
+        "party": "Republican",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-fl-2",
+        "name": "Ashley Moody",
+        "state": "Florida",
+        "party": "Republican",
+        "votes": {
+        }
+    },
+    {
         "id": "member-mi-1",
         "name": "Gary Peters",
         "state": "Michigan",
