@@ -1,20 +1,11 @@
 [
     {
-        "id": "bill-congress118-s3613",
-        "title": "S.3613 - Improving Federal Building Security Act of 2024",
-        "summary": "Facility Security Committees must respond to FPS security recommendations within 90 days.",
+        "id": "bill-congress119-s5",
+        "title": "S.5 - Laken Riley Act",
+        "summary": "This bill requires the Department of Homeland Security (DHS) to detain certain non-U.S. nationals (aliens under federal law) who have been arrested for burglary, theft, larceny, or shoplifting. The bill also authorizes states to sue the federal government for decisions or alleged failures related to immigration enforcement.",
         "votes": {
-            "Senate": "Unanimous Consent",
-            "House": {"yes": 410, "no": 6}
-        }
-    },
-    {
-        "id": "bill-congress118-s3475",
-        "title": "S.3475 - Strengthening the Commercial Driver’s License Information System Act",
-        "summary": "DOT can authorize an operator to collect fees for CDLIS.",
-        "votes": {
-            "Senate": "Agreed to by Voice Vote",
-            "House": "Unanimous Consent"
+            "Senate": {"yes": 64, "no": 35},
+            "House": {"yes": 263, "no": 156}
         }
     }
 ]
