@@ -16,5 +16,14 @@
             "Senate": "60 Yes, 34 No",
             "House": {"yes": 273, "no": 147}
         }
+    },
+    {
+        "id": "bill-117-hr6968",
+        "title": "H.R.6968 - Ending Importation of Russian Oil Act",
+        "summary": "This bill prohibits the importation of energy products from Russia.",
+        "votes": {
+            "Senate": "100 Yes, 0 No",
+            "House": {"yes": 414, "no": 17}
+        }
     }
 ]
