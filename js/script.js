@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+    // Load and display data dynamically
     fetch("data/bills.json")
         .then(response => response.json())
         .then(data => displayBills(data));
@@ -7,14 +8,19 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(response => response.json())
         .then(data => displayMembers(data));
 
-    document.getElementById("search-bar").addEventListener("input", filterResults);
+    // Enable global search
+    const searchBar = document.getElementById("search-bar");
+    if (searchBar) {
+        searchBar.addEventListener("input", filterResults);
+    }
 
+    // Load specific bill or member details if on that page
     loadPageData();
 });
 
 function displayBills(bills) {
     const billsList = document.getElementById("bills-list");
-    if (!billsList) return; // Prevent error on other pages
+    if (!billsList) return;
 
     billsList.innerHTML = bills.map(bill => `
         <div class="card">
@@ -26,7 +32,7 @@ function displayBills(bills) {
 
 function displayMembers(members) {
     const membersList = document.getElementById("members-list");
-    if (!membersList) return; // Prevent error on other pages
+    if (!membersList) return;
 
     membersList.innerHTML = members.map(member => `
         <div class="card">
@@ -36,12 +42,23 @@ function displayMembers(members) {
     `).join("");
 }
 
+// Search function for filtering both bills & members
+function filterResults() {
+    const searchText = document.getElementById("search-bar").value.toLowerCase();
+
+    document.querySelectorAll("#bills-list .card, #members-list .card").forEach(card => {
+        const text = card.innerText.toLowerCase();
+        card.style.display = text.includes(searchText) ? "block" : "none";
+    });
+}
+
+// Load bill or member data based on URL parameter
 function loadPageData() {
     const params = new URLSearchParams(window.location.search);
     const billId = params.get("id");
     const memberId = params.get("id");
 
-    if (billId) {
+    if (billId && document.getElementById("bill-title")) {
         fetch("data/bills.json")
             .then(response => response.json())
             .then(bills => {
@@ -57,7 +74,7 @@ function loadPageData() {
             });
     }
 
-    if (memberId) {
+    if (memberId && document.getElementById("member-name")) {
         fetch("data/members.json")
             .then(response => response.json())
             .then(members => {
