@@ -188,6 +188,94 @@
         }
     },
     {
+        "id": "member-ga-1",
+        "name": "Jon Ossoff",
+        "state": "Georgia",
+        "party": "Democratic",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ga-2",
+        "name": "Raphael Warnock",
+        "state": "Georgia",
+        "party": "Democratic",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "No Vote",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-hi-1",
+        "name": "Brian Schatz",
+        "state": "Hawaii",
+        "party": "Democratic",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-hi-2",
+        "name": "Mazie Hirono",
+        "state": "Hawaii",
+        "party": "Democratic",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-id-1",
+        "name": "Mike Crapo",
+        "state": "Idaho",
+        "party": "Republican",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-id-2",
+        "name": "Jim Risch",
+        "state": "Idaho",
+        "party": "Republican",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-il-1",
+        "name": "Dick Durbin",
+        "state": "Illinois",
+        "party": "Democratic",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-il-2",
+        "name": "Tammy Duckworth",
+        "state": "Illinois",
+        "party": "Democratic",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
         "id": "member-mi-1",
         "name": "Gary Peters",
         "state": "Michigan",
