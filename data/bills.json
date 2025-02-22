@@ -1,0 +1,11 @@
+[
+    {
+        "id": "bill-1",
+        "title": "Example Bill",
+        "summary": "An example bill summary.",
+        "votes": {
+            "Senate": {"yes": 85, "no": 15},
+            "House": {"yes": 385, "no": 50}
+        }
+    }
+]
