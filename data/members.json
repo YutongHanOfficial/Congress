@@ -1,0 +1,11 @@
+[
+    {
+        "id": "member-1",
+        "name": "John Doe",
+        "state": "Michigan",
+        "party": "Independent",
+        "votes": {
+            "bill-1": "Yes"
+        }
+    }
+]
