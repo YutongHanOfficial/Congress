@@ -122,7 +122,7 @@ ul li:last-child {
 /* 🏛️ Grid Layout for Congress Members & Bills */
 #bills-list, #members-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     gap: 20px;
     padding: 20px 0;
 }
