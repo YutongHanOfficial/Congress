@@ -1,9 +1,18 @@
 [
     {
-        "id": "member-1",
-        "name": "John Doe",
+        "id": "member-mi-1",
+        "name": "Gary Peters",
         "state": "Michigan",
-        "party": "Independent",
+        "party": "Democratic",
+        "votes": {
+            "bill-1": "Yes"
+        }
+    },
+    {
+        "id": "member-mi-2",
+        "name": "Elissa Slotkin",
+        "state": "Michigan",
+        "party": "Democratic",
         "votes": {
             "bill-1": "Yes"
         }
