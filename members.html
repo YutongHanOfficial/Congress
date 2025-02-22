@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Members</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>All Members</h1>
+        <input type="text" id="search-members" placeholder="Search for members...">
+    </header>
+
+    <main>
+        <div id="members-list"></div>
+    </main>
+
+    <script src="js/script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            fetch("data/members.json")
+                .then(response => response.json())
+                .then(members => {
+                    const membersList = document.getElementById("members-list");
+                    membersList.innerHTML = members.map(member => `
+                        <div class="card">
+                            <h3><a href="member.html?id=${member.id}">${member.name}</a></h3>
+                            <p>${member.state} - ${member.party}</p>
+                        </div>
+                    `).join("");
+                });
+
+            document.getElementById("search-members").addEventListener("input", (e) => {
+                const searchText = e.target.value.toLowerCase();
+                const memberCards = document.querySelectorAll("#members-list .card");
+                memberCards.forEach(card => {
+                    const name = card.innerText.toLowerCase();
+                    card.style.display = name.includes(searchText) ? "block" : "none";
+                });
+            });
+        });
+    </script>
+</body>
+</html>
