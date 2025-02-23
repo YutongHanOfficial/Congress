@@ -511,5 +511,98 @@
         "votes": {
             "bill-119-s5": "Yes"
         }
-    }
+    },
+    {
+        "id": "member-mn-1",
+        "name": "Amy Klobuchar",
+        "state": "Minnesota",
+        "party": "Democratic",
+        "assumed_office": "2007-01-03",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-mn-2",
+        "name": "Tina Smith",
+        "state": "Minnesota",
+        "party": "Democratic",
+        "assumed_office": "2018-01-03",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ms-1",
+        "name": "Roger Wicker",
+        "state": "Mississippi",
+        "party": "Republican",
+        "assumed_office": "2007-12-31",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ms-2",
+        "name": "Cindy Hyde-Smith",
+        "state": "Mississippi",
+        "party": "Republican",
+        "assumed_office": "2018-04-02",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-mo-1",
+        "name": "Josh Hawley",
+        "state": "Missouri",
+        "party": "Republican",
+        "assumed_office": "2019-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-mo-2",
+        "name": "Eric Schmitt",
+        "state": "Missouri",
+        "party": "Republican",
+        "assumed_office": "2023-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "No Vote"
+        }
+    },
+    {
+        "id": "member-mt-1",
+        "name": "Steve Daines",
+        "state": "Montana",
+        "party": "Republican",
+        "assumed_office": "2015-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-mt-2",
+        "name": "Tim Sheehy",
+        "state": "Montana",
+        "party": "Republican",
+        "assumed_office": "2025-01-03",
+        "votes": {
+            "bill-119-s5": "Yes"
+        }
+    },
 ]
