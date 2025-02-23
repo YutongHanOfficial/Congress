@@ -56,7 +56,7 @@ function filterResults() {
 function loadPageData() {
     const params = new URLSearchParams(window.location.search);
     const billId = params.get("id");
-    const memberId = params.get("member"); // Use "member" instead of "id" for clarity
+    const memberId = params.get("id");
 
     if (billId && document.getElementById("bill-title")) {
         fetch("data/bills.json")
@@ -67,18 +67,15 @@ function loadPageData() {
                     document.getElementById("bill-title").innerText = bill.title;
                     document.getElementById("bill-summary").innerText = bill.summary;
 
-                    // Ensure votes object exists and handle missing fields
-                    let senateVoteDisplay = bill.votes.Senate ? `<li>Senate: ${bill.votes.Senate}</li>` : "<li>Senate: N/A</li>";
-                    let houseVotes = bill.votes.House ? 
-                        `<li>House: ${bill.votes.House.yes} Yes, ${bill.votes.House.no} No</li>` : 
-                        "<li>House: N/A</li>";
+                    // Check if the Senate vote is a text-based value
+                    let senateVoteDisplay = `<li>Senate: ${bill.votes.Senate}</li>`;
 
-                    document.getElementById("bill-votes").innerHTML = `${senateVoteDisplay} ${houseVotes}`;
-                } else {
-                    console.warn("Bill not found:", billId);
+                    document.getElementById("bill-votes").innerHTML = `
+                        ${senateVoteDisplay}
+                        <li>House: ${bill.votes.House.yes} Yes, ${bill.votes.House.no} No</li>
+                    `;
                 }
-            })
-            .catch(error => console.error("Error loading bill data:", error));
+            });
     }
 
     if (memberId && document.getElementById("member-name")) {
@@ -89,18 +86,10 @@ function loadPageData() {
                 if (member) {
                     document.getElementById("member-name").innerText = member.name;
                     document.getElementById("member-info").innerText = `${member.state} - ${member.party}`;
-
-                    if (member.votes && Object.keys(member.votes).length > 0) {
-                        document.getElementById("member-votes").innerHTML = Object.keys(member.votes).map(
-                            billId => `<li><a href="bill.html?id=${billId}">${billId}</a>: ${member.votes[billId]}</li>`
-                        ).join("");
-                    } else {
-                        document.getElementById("member-votes").innerHTML = "<li>No votes recorded.</li>";
-                    }
-                } else {
-                    console.warn("Member not found:", memberId);
+                    document.getElementById("member-votes").innerHTML = Object.keys(member.votes).map(
+                        billId => `<li><a href="bill.html?id=${billId}">${billId}</a>: ${member.votes[billId]}</li>`
+                    ).join("");
                 }
-            })
-            .catch(error => console.error("Error loading member data:", error));
+            });
     }
 }
