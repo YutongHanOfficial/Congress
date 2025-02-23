@@ -5,10 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Congress Votes Tracker</title>
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .visit-counter {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Congress Votes Tracker</h1>
+        <img class="visit-counter" src="https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fyutonghanofficial.github.io%2FCongress%2F&s=40&c=ffffff&bg=00000000&no=10&ff=digi&tb=Visits%3A+&ta=" alt="visits">
         <input type="text" id="search-bar" placeholder="Search for bills or members...">
     </header>
     
@@ -23,11 +31,6 @@
             <div id="members-list"></div>
         </section>
     </main>
-
-    <footer>
-        <p>Page Visits:</p>
-        <img src="https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fyutonghanofficial.github.io%2FCongress%2F&s=40&c=ffffff&bg=00000000&no=10&ff=digi&tb=Visits%3A+&ta=" alt="visits">
-    </footer>
 
     <script src="js/script.js"></script>
 </body>
