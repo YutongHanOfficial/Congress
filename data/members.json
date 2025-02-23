@@ -627,5 +627,29 @@
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "Yes"
         }
+    },
+    {
+        "id": "member-nv-1",
+        "name": "Catherine Cortez Masto",
+        "state": "Nevada",
+        "party": "Democratic",
+        "assumed_office": "2017-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "No Vote",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-nv-2",
+        "name": "Jacky Rosen",
+        "state": "Nevada",
+        "party": "Democratic",
+        "assumed_office": "2019-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
     }
 ]
