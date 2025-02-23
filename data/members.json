@@ -745,5 +745,52 @@
             "bill-118-hr7888": "Yes",
             "bill-117-hr6968": "Yes"
         }
+    },
+    {
+        "id": "member-nc-1",
+        "name": "Thom Tillis",
+        "state": "North Carolina",
+        "party": "Republican",
+        "assumed_office": "2015-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-nc-2",
+        "name": "Ted Budd",
+        "state": "North Carolina",
+        "party": "Republican",
+        "assumed_office": "2023-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes"
+        }
+    },
+    {
+        "id": "member-nd-1",
+        "name": "John Hoeven",
+        "state": "North Dakota",
+        "party": "Republican",
+        "assumed_office": "2011-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-nd-2",
+        "name": "Kevin Cramer",
+        "state": "North Dakota",
+        "party": "Republican",
+        "assumed_office": "2019-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
     }
 ]
