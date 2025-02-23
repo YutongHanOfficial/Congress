@@ -651,5 +651,99 @@
             "bill-118-hr7888": "Yes",
             "bill-117-hr6968": "Yes"
         }
+    },
+    {
+        "id": "member-nh-1",
+        "name": "Jeanne Shaheen",
+        "state": "New Hampshire",
+        "party": "Democratic",
+        "assumed_office": "2009-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-nh-2",
+        "name": "Maggie Hassan",
+        "state": "New Hampshire",
+        "party": "Democratic",
+        "assumed_office": "2017-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-nj-1",
+        "name": "Cory Booker",
+        "state": "New Jersey",
+        "party": "Democratic",
+        "assumed_office": "2013-10-31",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-nj-2",
+        "name": "Andy Kim",
+        "state": "New Jersey",
+        "party": "Democratic",
+        "assumed_office": "2024-12-08",
+        "votes": {
+            "bill-119-s5": "No"
+        }
+    },
+    {
+        "id": "member-nm-1",
+        "name": "Martin Heinrich",
+        "state": "New Mexico",
+        "party": "Democratic",
+        "assumed_office": "2013-01-03",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-nm-2",
+        "name": "Ben Ray Luján",
+        "state": "New Mexico",
+        "party": "Democratic",
+        "assumed_office": "2021-01-03",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ny-1",
+        "name": "Chuck Schumer",
+        "state": "New York",
+        "party": "Democratic",
+        "assumed_office": "1999-01-03",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ny-2",
+        "name": "Kirsten Gillibrand",
+        "state": "New York",
+        "party": "Democratic",
+        "assumed_office": "2009-01-26",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
     }
 ]
