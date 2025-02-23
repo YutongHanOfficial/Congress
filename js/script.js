@@ -18,14 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
     loadPageData();
 });
 
-// Function to format date from "YYYY-MM-DD" to "Month Day, Year"
-function formatDate(dateString) {
-    if (!dateString) return "Present"; // Handle null values (still in office)
-    
-    const options = { year: "numeric", month: "long", day: "numeric" };
-    return new Date(dateString).toLocaleDateString("en-US", options);
-}
-
 function displayBills(bills) {
     const billsList = document.getElementById("bills-list");
     if (!billsList) return;
@@ -96,7 +88,6 @@ function loadPageData() {
                     document.getElementById("member-name").innerText = member.name;
                     document.getElementById("member-info").innerText = `${member.state} - ${member.party}`;
                     document.getElementById("member-term").innerText = `In Office: ${formatDate(member.assumed_office)} – ${formatDate(member.left_office)}`;
-                    
                     document.getElementById("member-votes").innerHTML = Object.keys(member.votes).map(
                         billId => `<li><a href="bill.html?id=${billId}">${billId}</a>: ${member.votes[billId]}</li>`
                     ).join("");
