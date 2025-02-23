@@ -276,6 +276,178 @@
         }
     },
     {
+        "id": "member-in-1",
+        "name": "Todd Young",
+        "state": "Indiana",
+        "party": "Republican",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-in-2",
+        "name": "Jim Banks",
+        "state": "Indiana",
+        "party": "Republican",
+        "votes": {
+            "bill-119-s5": "Yes"
+        }
+    },
+    {
+        "id": "member-ia-1",
+        "name": "Chuck Grassley",
+        "state": "Iowa",
+        "party": "Republican",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ia-2",
+        "name": "Joni Ernst",
+        "state": "Iowa",
+        "party": "Republican",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ks-1",
+        "name": "Jerry Moran",
+        "state": "Kansas",
+        "party": "Republican",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ks-2",
+        "name": "Roger Marshall",
+        "state": "Kansas",
+        "party": "Republican",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ky-1",
+        "name": "Mitch McConnell",
+        "state": "Kentucky",
+        "party": "Republican",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ky-2",
+        "name": "Rand Paul",
+        "state": "Kentucky",
+        "party": "Republican",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-la-1",
+        "name": "Bill Cassidy",
+        "state": "Louisiana",
+        "party": "Republican",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-la-2",
+        "name": "John Kennedy",
+        "state": "Louisiana",
+        "party": "Republican",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-me-1",
+        "name": "Susan Collins",
+        "state": "Maine",
+        "party": "Republican",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-me-2",
+        "name": "Angus King",
+        "state": "Maine",
+        "party": "Independent",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-md-1",
+        "name": "Chris Van Hollen",
+        "state": "Maryland",
+        "party": "Democratic",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-md-2",
+        "name": "Angela Alsobrooks",
+        "state": "Maryland",
+        "party": "Democratic",
+        "votes": {
+            "bill-119-s5": "No"
+        }
+    },
+    {
+        "id": "member-ma-1",
+        "name": "Elizabeth Warren",
+        "state": "Massachusetts",
+        "party": "Democratic",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ma-2",
+        "name": "Ed Markey",
+        "state": "Massachusetts",
+        "party": "Democratic",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
         "id": "member-mi-1",
         "name": "Gary Peters",
         "state": "Michigan",
