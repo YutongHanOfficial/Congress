@@ -605,4 +605,27 @@
             "bill-119-s5": "Yes"
         }
     },
+    {
+        "id": "member-ne-1",
+        "name": "Deb Fischer",
+        "state": "Nebraska",
+        "party": "Republican",
+        "assumed_office": "2013-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ne-2",
+        "name": "Pete Ricketts",
+        "state": "Nebraska",
+        "party": "Republican",
+        "assumed_office": "2023-01-12",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes"
+        }
+    }
 ]
