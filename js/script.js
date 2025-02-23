@@ -33,6 +33,7 @@ function displayBills(bills) {
     billsList.innerHTML = bills.map(bill => `
         <div class="card">
             <h3><a href="bill.html?id=${bill.id}">${bill.title}</a></h3>
+            <p><strong>Sponsored by:</strong> ${bill.sponsor}</p>
             <p>${bill.summary}</p>
         </div>
     `).join("");
@@ -75,12 +76,10 @@ function loadPageData() {
                 if (bill) {
                     document.getElementById("bill-title").innerText = bill.title;
                     document.getElementById("bill-summary").innerText = bill.summary;
-
-                    // Check if the Senate vote is a text-based value
-                    let senateVoteDisplay = `<li>Senate: ${bill.votes.Senate}</li>`;
+                    document.getElementById("bill-sponsor").innerText = `Sponsored by: ${bill.sponsor}`;
 
                     document.getElementById("bill-votes").innerHTML = `
-                        ${senateVoteDisplay}
+                        <li>Senate: ${bill.votes.Senate}</li>
                         <li>House: ${bill.votes.House.yes} Yes, ${bill.votes.House.no} No</li>
                     `;
                 }
