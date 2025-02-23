@@ -4,6 +4,8 @@
         "name": "Tommy Tuberville",
         "state": "Alabama",
         "party": "Republican",
+        "assumed_office": "2021-01-03",
+        "left_office": null,
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "No",
@@ -15,6 +17,7 @@
         "name": "Katie Britt",
         "state": "Alabama",
         "party": "Republican",
+        "assumed_office": "2023-01-03",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "Yes"
@@ -25,6 +28,7 @@
         "name": "Lisa Murkowski",
         "state": "Alaska",
         "party": "Republican",
+        "assumed_office": "2002-12-20",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "Yes",
@@ -36,6 +40,7 @@
         "name": "Dan Sullivan",
         "state": "Alaska",
         "party": "Republican",
+        "assumed_office": "2015-01-03",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "Yes",
@@ -47,6 +52,7 @@
         "name": "Mark Kelly",
         "state": "Arizona",
         "party": "Democratic",
+        "assumed_office": "2020-12-02",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "Yes",
@@ -58,6 +64,7 @@
         "name": "Ruben Gallego",
         "state": "Arizona",
         "party": "Democratic",
+        "assumed_office": "2025-01-03",
         "votes": {
             "bill-119-s5": "Yes"
         }
@@ -67,6 +74,7 @@
         "name": "John Boozman",
         "state": "Arkansas",
         "party": "Republican",
+        "assumed_office": "2011-01-03",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "Yes",
@@ -78,6 +86,7 @@
         "name": "Tom Cotton",
         "state": "Arkansas",
         "party": "Republican",
+        "assumed_office": "2015-01-03",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "Yes",
@@ -89,6 +98,7 @@
         "name": "Alex Padilla",
         "state": "California",
         "party": "Democratic",
+        "assumed_office": "2021-01-18",
         "votes": {
             "bill-119-s5": "No",
             "bill-118-hr7888": "Yes",
@@ -100,6 +110,7 @@
         "name": "Adam Schiff",
         "state": "California",
         "party": "Democratic",
+        "assumed_office": "2024-12-08",
         "votes": {
             "bill-119-s5": "No"
         }
@@ -109,6 +120,7 @@
         "name": "Michael Bennet",
         "state": "Colorado",
         "party": "Democratic",
+        "assumed_office": "2009-01-21",
         "votes": {
             "bill-119-s5": "No",
             "bill-118-hr7888": "Yes",
@@ -120,6 +132,7 @@
         "name": "John Hickenlooper",
         "state": "Colorado",
         "party": "Democratic",
+        "assumed_office": "2021-01-03",
         "votes": {
             "bill-119-s5": "No",
             "bill-118-hr7888": "Yes",
@@ -131,6 +144,7 @@
         "name": "Richard Blumenthal",
         "state": "Connecticut",
         "party": "Democratic",
+        "assumed_office": "2011-01-05",
         "votes": {
             "bill-119-s5": "No",
             "bill-118-hr7888": "Yes",
@@ -142,6 +156,7 @@
         "name": "Chris Murphy",
         "state": "Connecticut",
         "party": "Democratic",
+        "assumed_office": "2013-01-03",
         "votes": {
             "bill-119-s5": "No",
             "bill-118-hr7888": "No",
@@ -153,6 +168,7 @@
         "name": "Chris Coons",
         "state": "Delaware",
         "party": "Democratic",
+        "assumed_office": "2010-11-15",
         "votes": {
             "bill-119-s5": "No",
             "bill-118-hr7888": "Yes",
@@ -164,6 +180,7 @@
         "name": "Lisa Blunt Rochester",
         "state": "Delaware",
         "party": "Democratic",
+        "assumed_office": "2025-01-03",
         "votes": {
             "bill-119-s5": "No"
         }
@@ -173,6 +190,7 @@
         "name": "Rick Scott",
         "state": "Florida",
         "party": "Republican",
+        "assumed_office": "2019-01-08",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "No",
@@ -184,6 +202,7 @@
         "name": "Ashley Moody",
         "state": "Florida",
         "party": "Republican",
+        "assumed_office": "2025-01-21",
         "votes": {
         }
     },
@@ -192,6 +211,7 @@
         "name": "Jon Ossoff",
         "state": "Georgia",
         "party": "Democratic",
+        "assumed_office": "2021-01-20",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "Yes",
@@ -203,6 +223,7 @@
         "name": "Raphael Warnock",
         "state": "Georgia",
         "party": "Democratic",
+        "assumed_office": "2021-01-20",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "No Vote",
@@ -214,6 +235,7 @@
         "name": "Brian Schatz",
         "state": "Hawaii",
         "party": "Democratic",
+        "assumed_office": "2012-12-26",
         "votes": {
             "bill-119-s5": "No",
             "bill-118-hr7888": "Yes",
@@ -225,6 +247,7 @@
         "name": "Mazie Hirono",
         "state": "Hawaii",
         "party": "Democratic",
+        "assumed_office": "2013-01-03",
         "votes": {
             "bill-119-s5": "No",
             "bill-118-hr7888": "No",
@@ -236,6 +259,7 @@
         "name": "Mike Crapo",
         "state": "Idaho",
         "party": "Republican",
+        "assumed_office": "1999-01-03",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "Yes",
@@ -247,6 +271,7 @@
         "name": "Jim Risch",
         "state": "Idaho",
         "party": "Republican",
+        "assumed_office": "2009-01-03",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "Yes",
@@ -258,6 +283,7 @@
         "name": "Dick Durbin",
         "state": "Illinois",
         "party": "Democratic",
+        "assumed_office": "1997-01-03",
         "votes": {
             "bill-119-s5": "No",
             "bill-118-hr7888": "No",
@@ -269,6 +295,7 @@
         "name": "Tammy Duckworth",
         "state": "Illinois",
         "party": "Democratic",
+        "assumed_office": "2017-01-03",
         "votes": {
             "bill-119-s5": "No",
             "bill-118-hr7888": "Yes",
@@ -280,6 +307,7 @@
         "name": "Todd Young",
         "state": "Indiana",
         "party": "Republican",
+        "assumed_office": "2017-01-03",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "Yes",
@@ -291,6 +319,7 @@
         "name": "Jim Banks",
         "state": "Indiana",
         "party": "Republican",
+        "assumed_office": "2025-01-03",
         "votes": {
             "bill-119-s5": "Yes"
         }
@@ -300,6 +329,7 @@
         "name": "Chuck Grassley",
         "state": "Iowa",
         "party": "Republican",
+        "assumed_office": "1981-01-03",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "Yes",
@@ -311,6 +341,7 @@
         "name": "Joni Ernst",
         "state": "Iowa",
         "party": "Republican",
+        "assumed_office": "2015-01-03",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "Yes",
@@ -322,6 +353,7 @@
         "name": "Jerry Moran",
         "state": "Kansas",
         "party": "Republican",
+        "assumed_office": "2011-01-03",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "Yes",
@@ -333,6 +365,7 @@
         "name": "Roger Marshall",
         "state": "Kansas",
         "party": "Republican",
+        "assumed_office": "2021-01-03",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "No",
@@ -344,6 +377,7 @@
         "name": "Mitch McConnell",
         "state": "Kentucky",
         "party": "Republican",
+        "assumed_office": "1985-01-03",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "Yes",
@@ -355,6 +389,7 @@
         "name": "Rand Paul",
         "state": "Kentucky",
         "party": "Republican",
+        "assumed_office": "2011-01-03",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "No",
@@ -366,6 +401,7 @@
         "name": "Bill Cassidy",
         "state": "Louisiana",
         "party": "Republican",
+        "assumed_office": "2015-01-03",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "Yes",
@@ -377,6 +413,7 @@
         "name": "John Kennedy",
         "state": "Louisiana",
         "party": "Republican",
+        "assumed_office": "2017-01-03",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "Yes",
@@ -388,6 +425,7 @@
         "name": "Susan Collins",
         "state": "Maine",
         "party": "Republican",
+        "assumed_office": "1997-01-03",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "Yes",
@@ -399,6 +437,7 @@
         "name": "Angus King",
         "state": "Maine",
         "party": "Independent",
+        "assumed_office": "2013-01-03",
         "votes": {
             "bill-119-s5": "No",
             "bill-118-hr7888": "Yes",
@@ -410,6 +449,7 @@
         "name": "Chris Van Hollen",
         "state": "Maryland",
         "party": "Democratic",
+        "assumed_office": "2017-01-03",
         "votes": {
             "bill-119-s5": "No",
             "bill-118-hr7888": "No",
@@ -421,6 +461,7 @@
         "name": "Angela Alsobrooks",
         "state": "Maryland",
         "party": "Democratic",
+        "assumed_office": "2025-01-03",
         "votes": {
             "bill-119-s5": "No"
         }
@@ -430,6 +471,7 @@
         "name": "Elizabeth Warren",
         "state": "Massachusetts",
         "party": "Democratic",
+        "assumed_office": "2013-01-03",
         "votes": {
             "bill-119-s5": "No",
             "bill-118-hr7888": "No",
@@ -441,6 +483,7 @@
         "name": "Ed Markey",
         "state": "Massachusetts",
         "party": "Democratic",
+        "assumed_office": "2013-07-16",
         "votes": {
             "bill-119-s5": "No",
             "bill-118-hr7888": "No",
@@ -452,6 +495,7 @@
         "name": "Gary Peters",
         "state": "Michigan",
         "party": "Democratic",
+        "assumed_office": "2015-01-03",
         "votes": {
             "bill-119-s5": "Yes",
             "bill-118-hr7888": "Yes",
@@ -463,6 +507,7 @@
         "name": "Elissa Slotkin",
         "state": "Michigan",
         "party": "Democratic",
+        "assumed_office": "2025-01-03",
         "votes": {
             "bill-119-s5": "Yes"
         }
