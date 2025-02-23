@@ -792,5 +792,92 @@
             "bill-118-hr7888": "No",
             "bill-117-hr6968": "Yes"
         }
+    },
+    {
+        "id": "member-oh-1",
+        "name": "Bernie Moreno",
+        "state": "Ohio",
+        "party": "Republican",
+        "assumed_office": "2025-01-03",
+        "votes": {
+            "bill-119-s5": "Yes"
+        }
+    },
+    {
+        "id": "member-oh-2",
+        "name": "Kevin Cramer",
+        "state": "Ohio",
+        "party": "Republican",
+        "assumed_office": "2025-01-21",
+        "votes": {
+        }
+    },
+    {
+        "id": "member-ok-1",
+        "name": "James Lankford",
+        "state": "Oklahoma",
+        "party": "Republican",
+        "assumed_office": "2015-01-06",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ok-2",
+        "name": "Markwayne Mullin",
+        "state": "Oklahoma",
+        "party": "Republican",
+        "assumed_office": "2023-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes"
+        }
+    },
+    {
+        "id": "member-or-1",
+        "name": "Ron Wyden",
+        "state": "Oregon",
+        "party": "Democratic",
+        "assumed_office": "1996-02-06",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-or-2",
+        "name": "Jeff Merkley",
+        "state": "Oregon",
+        "party": "Democratic",
+        "assumed_office": "2009-01-03",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-pa-1",
+        "name": "John Fetterman",
+        "state": "Pennsylvania",
+        "party": "Democratic",
+        "assumed_office": "2023-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes"
+        }
+    },
+    {
+        "id": "member-pa-2",
+        "name": "Dave McCormick",
+        "state": "Pennsylvania",
+        "party": "Republican",
+        "assumed_office": "2025-01-03",
+        "votes": {
+            "bill-119-s5": "Yes"
+        }
     }
 ]
