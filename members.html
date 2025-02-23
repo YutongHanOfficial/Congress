@@ -23,23 +23,30 @@
                 .then(response => response.json())
                 .then(members => {
                     const membersList = document.getElementById("members-list");
+                    if (!membersList) return;
+
                     membersList.innerHTML = members.map(member => `
                         <div class="card">
                             <h3><a href="member.html?id=${member.id}">${member.name}</a></h3>
                             <p>${member.state} - ${member.party}</p>
+                            <p>In Office: ${formatDate(member.assumed_office)} – ${formatDate(member.left_office)}</p>
                         </div>
                     `).join("");
                 });
 
             document.getElementById("search-members").addEventListener("input", (e) => {
                 const searchText = e.target.value.toLowerCase();
-                const memberCards = document.querySelectorAll("#members-list .card");
-                memberCards.forEach(card => {
-                    const name = card.innerText.toLowerCase();
-                    card.style.display = name.includes(searchText) ? "block" : "none";
+                document.querySelectorAll("#members-list .card").forEach(card => {
+                    card.style.display = card.innerText.toLowerCase().includes(searchText) ? "block" : "none";
                 });
             });
         });
+
+        // Convert "YYYY-MM-DD" → "Month Day, Year"
+        function formatDate(dateString) {
+            if (!dateString || dateString === "null") return "Present";
+            return new Date(dateString).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+        }
     </script>
 </body>
 </html>
