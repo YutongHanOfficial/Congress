@@ -1,0 +1,32 @@
+[
+    {
+        "id": "bill-congress-name",
+        "title": "Number - BillName",
+        "summary": "Summary",
+        "sponsor": "Sponsor",
+        "votes": {
+            "Senate": "75 Yes, 25 No",
+            "House": {"yes": 300, "no": 135}
+        }
+    },
+    {
+        "id": "bill-108-s1234",
+        "title": "S.1234 - BillName",
+        "summary": "Summary",
+        "sponsor": "Sen. John Doe (I-MI)",
+        "votes": {
+            "Senate": "65 Yes, 35 No",
+            "House": {"yes": 280, "no": 155}
+        }
+    },
+    {
+        "id": "bill-109-hr5678",
+        "title": "H.R.5678 - BillName",
+        "summary": "Summary",
+        "sponsor": "Rep. Jane Doe (I-MI-8)",
+        "votes": {
+            "Senate": "55 Yes, 45 No",
+            "House": {"yes": 220, "no": 215}
+        }
+    }
+]
