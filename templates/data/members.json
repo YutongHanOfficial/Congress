@@ -1,0 +1,28 @@
+[
+    {
+        "id": "member-state-1",
+        "name": "Name",
+        "state": "StateName",
+        "party": "Party",
+        "assumed_office": "2001-01-03",
+        "left_office": null,
+        "votes": {
+            "bill-congress-name": "Yes",
+            "bill-108-s1234": "No",
+            "bill-109-hr5678": "Yes"
+        }
+    },
+    {
+        "id": "member-state-2",
+        "name": "Name",
+        "state": "StateName",
+        "party": "Party",
+        "assumed_office": "2003-01-03",
+        "left_office": "2025-01-03",
+        "votes": {
+            "bill-congress-name": "Yes",
+            "bill-108-s1234": "No",
+            "bill-109-hr5678": "Yes"
+        }
+    }
+]
