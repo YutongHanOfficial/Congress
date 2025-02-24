@@ -1021,5 +1021,146 @@
         "votes": {
             "bill-119-s5": "Yes"
         }
+    },
+    {
+        "id": "member-vt-1",
+        "name": "Bernie Sanders",
+        "state": "Vermont",
+        "party": "Independent",
+        "assumed_office": "2007-01-03",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-vt-2",
+        "name": "Peter Welch",
+        "state": "Vermont",
+        "party": "Democratic",
+        "assumed_office": "2023-01-03",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "No"
+        }
+    },
+    {
+        "id": "member-va-1",
+        "name": "Mark Warner",
+        "state": "Virginia",
+        "party": "Democratic",
+        "assumed_office": "2009-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-va-2",
+        "name": "Tim Kaine",
+        "state": "Virginia",
+        "party": "Democratic",
+        "assumed_office": "2013-01-03",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-wa-1",
+        "name": "Patty Murray",
+        "state": "Washington",
+        "party": "Democratic",
+        "assumed_office": "1993-01-03",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-wa-2",
+        "name": "Maria Cantwell",
+        "state": "Washington",
+        "party": "Democratic",
+        "assumed_office": "2001-01-03",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-wv-1",
+        "name": "Shelley Moore Capito",
+        "state": "West Virginia",
+        "party": "Republican",
+        "assumed_office": "2015-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "No Vote",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-wv-2",
+        "name": "Jim Justice",
+        "state": "West Virginia",
+        "party": "Republican",
+        "assumed_office": "2025-01-14",
+        "votes": {
+            "bill-119-s5": "Yes"
+        }
+    },
+    {
+        "id": "member-wi-1",
+        "name": "Ron Johnson",
+        "state": "Wisconsin",
+        "party": "Republican",
+        "assumed_office": "2011-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-wi-2",
+        "name": "Tammy Baldwin",
+        "state": "Wisconsin",
+        "party": "Democratic",
+        "assumed_office": "2013-01-03",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-wy-1",
+        "name": "John Barrasso",
+        "state": "Wyoming",
+        "party": "Republican",
+        "assumed_office": "2007-06-22",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-wy-2",
+        "name": "Cynthia Lummis",
+        "state": "Wyoming",
+        "party": "Republican",
+        "assumed_office": "2021-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
     }
 ]
