@@ -1,0 +1,1 @@
+Templates for different files.
