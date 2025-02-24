@@ -879,5 +879,147 @@
         "votes": {
             "bill-119-s5": "Yes"
         }
+    },
+    {
+        "id": "member-ri-1",
+        "name": "Jack Reed",
+        "state": "Rhode Island",
+        "party": "Democratic",
+        "assumed_office": "1997-01-03",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ri-2",
+        "name": "Sheldon Whitehouse",
+        "state": "Rhode Island",
+        "party": "Democratic",
+        "assumed_office": "2007-01-03",
+        "votes": {
+            "bill-119-s5": "No",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-sc-1",
+        "name": "Lindsey Graham",
+        "state": "South Carolina",
+        "party": "Republican",
+        "assumed_office": "2003-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-sc-2",
+        "name": "Tim Scott",
+        "state": "South Carolina",
+        "party": "Republican",
+        "assumed_office": "2013-01-02",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-sd-1",
+        "name": "John Thune",
+        "state": "South Dakota",
+        "party": "Republican",
+        "assumed_office": "2005-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-sd-2",
+        "name": "Mike Rounds",
+        "state": "South Dakota",
+        "party": "Republican",
+        "assumed_office": "2015-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-tn-1",
+        "name": "Marsha Blackburn",
+        "state": "Tennessee",
+        "party": "Republican",
+        "assumed_office": "2019-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-tn-2",
+        "name": "Bill Hagerty",
+        "state": "Tennessee",
+        "party": "Republican",
+        "assumed_office": "2021-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-tx-1",
+        "name": "John Cornyn",
+        "state": "Texas",
+        "party": "Republican",
+        "assumed_office": "2002-12-02",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "Yes",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-tx-2",
+        "name": "Ted cruz",
+        "state": "Texas",
+        "party": "Republican",
+        "assumed_office": "2013-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ut-1",
+        "name": "Mike Lee",
+        "state": "Utah",
+        "party": "Republican",
+        "assumed_office": "2011-01-03",
+        "votes": {
+            "bill-119-s5": "Yes",
+            "bill-118-hr7888": "No",
+            "bill-117-hr6968": "Yes"
+        }
+    },
+    {
+        "id": "member-ut-2",
+        "name": "John Curtis",
+        "state": "Utah",
+        "party": "Republican",
+        "assumed_office": "2025-01-03",
+        "votes": {
+            "bill-119-s5": "Yes"
+        }
     }
 ]
