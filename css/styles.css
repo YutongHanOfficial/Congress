@@ -31,6 +31,7 @@ header {
     font-weight: 700;
     box-shadow: var(--shadow);
     width: 100%; /* Ensures it spans full width */
+    margin: 0;
 }
 
 /* 📌 Content Wrapper - Adds Margins */
