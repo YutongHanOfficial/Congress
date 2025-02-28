@@ -21,10 +21,17 @@ document.addEventListener("DOMContentLoaded", () => {
 // Function to format date from "YYYY-MM-DD" to "Month Day, Year"
 function formatDate(dateString) {
     if (!dateString) return "Present"; // Handle null values (still in office)
-    
-    const date = new Date(dateString + "T00:00:00Z"); // Force UTC interpretation
-    const options = { year: "numeric", month: "long", day: "numeric" };
-    return date.toLocaleDateString("en-US", options);
+
+    // Split the date string into components
+    const [year, month, day] = dateString.split("-");
+
+    // Convert month number to full month name
+    const monthNames = [
+        "January", "February", "March", "April", "May", "June", 
+        "July", "August", "September", "October", "November", "December"
+    ];
+
+    return `${monthNames[parseInt(month, 10) - 1]} ${parseInt(day, 10)}, ${year}`;
 }
 
 function displayBills(bills) {
