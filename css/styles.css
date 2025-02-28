@@ -16,11 +16,11 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: var(--background-color);
     color: var(--text-color);
-    margin: 0;
-    padding: 20px; /* Adds spacing around content */
+    margin: 20px;
+    padding: 0;
 }
 
-/* 🏛️ Header - Professional Government Look */
+/* 🏛️ Header - Full Width */
 header {
     background: var(--primary-color);
     color: white;
@@ -30,9 +30,10 @@ header {
     font-size: 24px;
     font-weight: 700;
     box-shadow: var(--shadow);
+    width: 100%; /* Ensures it spans full width */
 }
 
-/* 📌 Content Wrapper */
+/* 📌 Content Wrapper - Adds Margins */
 .container {
     width: 90%;
     max-width: 1100px;
@@ -141,12 +142,12 @@ a:hover {
 
 /* 📱 Mobile Responsiveness */
 @media (max-width: 768px) {
-    body {
-        padding: 10px; /* Reduce padding on smaller screens */
-    }
-
     .container {
         width: 95%;
         padding: 15px;
+    }
+    
+    input[type="text"] {
+        max-width: 100%;
     }
 }
