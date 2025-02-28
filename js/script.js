@@ -22,8 +22,9 @@ document.addEventListener("DOMContentLoaded", () => {
 function formatDate(dateString) {
     if (!dateString) return "Present"; // Handle null values (still in office)
     
+    const date = new Date(dateString + "T00:00:00Z"); // Force UTC interpretation
     const options = { year: "numeric", month: "long", day: "numeric" };
-    return new Date(dateString).toLocaleDateString("en-US", options);
+    return date.toLocaleDateString("en-US", options);
 }
 
 function displayBills(bills) {
