@@ -7,7 +7,7 @@
         "votes": {
             "Senate": "64 Yes, 35 No",
             "House": {"yes": 263, "no": 156},
-            "President": "Enacted by Donald Trump"
+            "President": "Signed into law by Donald Trump"
         }
     },
     {
@@ -18,7 +18,7 @@
         "votes": {
             "Senate": "60 Yes, 34 No",
             "House": {"yes": 273, "no": 147},
-            "President": "Enacted by Joe Biden"
+            "President": "Signed into law by Joe Biden"
         }
     },
     {
@@ -29,7 +29,7 @@
         "votes": {
             "Senate": "100 Yes, 0 No",
             "House": {"yes": 414, "no": 17},
-            "President": "Enacted by Joe Biden"
+            "President": "Signed into law by Joe Biden"
         }
     },
     {
