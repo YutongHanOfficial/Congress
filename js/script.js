@@ -89,6 +89,7 @@ function loadPageData() {
                     document.getElementById("bill-votes").innerHTML = `
                         <li>Senate: ${bill.votes.Senate}</li>
                         <li>House: ${bill.votes.House.yes} Yes, ${bill.votes.House.no} No</li>
+                        <li>President: ${bill.votes.President}</li>
                     `;
                 }
             });
